@@ -19,12 +19,21 @@ body {
     padding: 0;
     line-height: 1;
 }
+
 ol, ul,li {
     list-style: none;
 }
 a{
     text-decoration: none;
     color: var(--cor-de-link);
+}
+
+/* Mobile First */
+.tudo{
+    margin: 0 16px 0 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
@@ -42,7 +51,20 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección Menu*/
 
 section.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+}
 
+.menu__header{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+section.menu nav ul.menu__list {
+    display: none;
 }
 
 /*Sección Title*/
@@ -108,10 +130,14 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 }
 
-/*Mobile*/
-@media (min-width: 425px) {
+/*Desktop*/
+@media (min-width: 1024px) {
 
 /*Menu*/
+.menu__list{
+    display: flex;
+    gap: 32px;
+}
 
 /*Titulo*/
 
