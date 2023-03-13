@@ -30,7 +30,6 @@ a{
 
 /* Mobile First */
 .todo{
-    margin: 0 16px 0 16px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -55,6 +54,7 @@ section.menu{
     justify-content: space-between;
     align-items: center;
     align-content: flex-end;
+    margin: 0 16px 0 16px;
 }
 
 .menu__header{
@@ -74,7 +74,7 @@ section.menu nav li {
 /*Sección Title*/
 
 section.title{
-
+    margin: 0 16px 0 16px;
 }
 
 .title__profile{
@@ -106,13 +106,86 @@ section.title div.title__div div.title__container ul {
 /*Sección About*/
 
 section.about{
+    background-color: #EAF2FD;
+}
 
+.about__title{
+    margin: 16px;
+}
+
+section.about div.about__container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 16px 0 16px;
+}
+
+section.about div.about__container img {
+    margin: 16px;
+}
+
+/*Sección Skills*/
+
+section.skills{
+    margin: 0 16px 0 16px;
+}
+
+.skills__title{
+    text-align: center;
+    font-size: 22px;
+}
+
+section.skills div.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.skills div.skills__line div.skills__box {
+    width: 48%;
+    background-color: #fbfbfb;
+    margin: 16px 0 16px 0;
+}
+
+section.skills div.skills__line div.skills__box ul {
+    margin: 38px 0 16px 16px;
+    padding: 0;
+}
+
+.skills__img {
+    margin-bottom: 8px;
 }
 
 /*Sección Hobbies*/
 
 section.hobbies{
-    
+    margin: 0 16px 0 16px;    
+}
+
+.hobbies__title{
+    text-align: center;
+    font-size: 22px;
+}
+
+section.hobbies div.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.hobbies div.hobbies__line div.hobbies__box {
+    width: 48%;
+    background-color: #fbfbfb;
+    margin: 16px 0 16px 0;
+}
+
+section.hobbies div.hobbies__line div.hobbies__box ul {
+    margin: 38px 0 16px 16px;
+    padding: 0;
+}
+
+.hobbies__img {
+    margin-bottom: 8px;
 }
 
 /* Experiencia Académica*/
