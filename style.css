@@ -190,8 +190,55 @@ section.hobbies div.hobbies__line div.hobbies__box ul {
 
 /* Experiencia Académica*/
 
-section.academic{
+section.academic {
+    background-color: #EAF2FD;
+}
 
+.academic__title{
+    text-align: center;
+    font-size: 22px;
+    margin: 32px 0 32px 0;
+}
+
+section.academic div.academic__courses {
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.academic div.academic__courses ul {
+    margin: 0;
+    padding: 0;
+}
+
+section.academic div.academic__courses ul li {
+    padding: 0;
+    margin: 32px;
+}
+
+section.academic div.academic__courses ul li img:nth-child(1) {
+    margin: 30px 0 30px 0;
+
+}
+
+section.academic div.academic__courses ul li.academic__courses__item__img {
+    background-color: white;
+}
+
+section.academic div.academic__courses ul li.academic__courses__item__title h4 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: -25px;
+    text-align: start;
+}
+
+section.academic div.academic__courses ul li.academic__courses__item__subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: start;
+}
+
+.item__img {
+    width: 30%;
 }
 
 /* experiencia*/
