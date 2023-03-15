@@ -325,7 +325,6 @@ section.formcontato div.contact div.contact-text h2.contact-title {
     font-weight: 700;
     font-size: 22px;
     padding: 10px;
-
 }
 
 section.formcontato form {
@@ -412,23 +411,114 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 /*Tablet*/
 @media (min-width: 768px) {
+    
+    /*menu*/
+    section.menu {
+        margin: 0 32px 0 32px; 
+    }
 
-/* Menú */
+    /*title*/
+    section.title {
+        margin: 32px;
+    }
 
-/*title*/
+    div.title__div {
+        justify-content: space-around;
+        align-content: flex-start;
+        display: flex;
+        flex-direction: row-reverse;
+    }
 
-/*Skills*/
+    div.title__container {
+        width: 524px;
+    }
 
-/*Hobbies*/
+    section.title img.title__profile {
+        width: 22%;
+        height: 22%;
+        margin-left: 32px;
+    }
 
-/*Formación Académica*/
+    /*About Me*/
+    section.about {
+        padding: 16px;
+    }
 
-/*Experiencia Profesional*/
+    /*Skills*/
+    section.skills {
+        padding: 16px;
+    }
+
+    section.skills div.skills__line {
+        gap: 16px;
+        width: 100%;
+    }
+
+    section.skills div.skills__line div.skills__box {
+        width: 31%;
+        margin: 16px 0 16px 0;
+    }
+
+    /*Hobbies*/
+    section.hobbies {
+        padding: 16px;
+    }
+
+    section.hobbies div.hobbies__line {
+        gap: 16px;
+        width: 100%;
+    }
+
+    section.hobbies div.hobbies__line div.hobbies__box {
+        width: 31%;
+        margin: 16px 0 16px 0;
+    }
+
+    /*experiências acadêmicas*/
+
+    section.academic div.academic__courses {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    section.academic div.academic__courses__box {
+        width: 100%;
+    }
+
+    section.academic div.academic__courses ul li.academic__courses__item__title h4 {
+        margin-left: -32px;
+    }
+
+    section.academic div.academic__courses ul li.academic__courses__item__subtitle {
+        margin-left: -1px;
+    }
+
+    section.academic div.academic__courses ul li.academic__courses__item__img {
+        margin: 0;
+    }
+
+    .item__img {
+        width: 30%;
+    }
+    /*contacto*/
+
+    section.experience div.experiencie__box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.experience div.experiencie__box img {
+        width: 100%;
+    }
+
 
 }
 
 /*Desktop*/
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
 
 /*Menu*/
 .menu__list{
