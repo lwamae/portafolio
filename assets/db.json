@@ -1,43 +1,16 @@
 {
   "1626000000": {
     "alt": "Margherita Pizza on a Stick Recipe",
-    "desc": "Title: Margherita Pizza on a Stick
-
-Ingredients:
-- 1 pound (450g) pizza dough (store-bought or homemade)
-- All-purpose flour for dusting
-- 1 cup tomato sauce or pizza sauce
-- 8-10 small mozzarella cheese balls (bocconcini)
-- 8-10 cherry tomatoes
-- Fresh basil leaves
-- Olive oil for brushing
-- Salt and black pepper to taste
-
-Instructions:
-1. Prepare the Pizza Dough:
-   - If you're using store-bought pizza dough, follow the package instructions for letting it come to room temperature. If you're making homemade pizza dough, follow your favorite recipe and let it rise according to the instructions.
-
-2. Preheat the Grill or Oven:
-   - Preheat your grill or oven to 450°F (230°C). If you're using wooden skewers, soak them in water for about 30 minutes to prevent them from burning.
-
-3. Roll Out the Dough:
-   - On a lightly floured surface, roll out each dough ball into a thin circle or oval shape, about 1/4 inch thick.
-
-4. Assemble the Pizza Sticks:
-   - Take a rolled-out pizza dough circle and spread a spoonful of tomato sauce on it, leaving a small border around the edges.
-   - Add a mozzarella ball, a cherry tomato, and a fresh basil leaf to the center.
-   - Carefully fold the dough over the toppings to form a half-moon shape and seal the edges. Gently press down to flatten slightly.
-   - Thread the folded pizza onto a skewer. Repeat this process for all your pizza sticks.
-
-5. Grill or Bake:
-   - If using a grill, place the pizza sticks on the grill grates and cook for about 3-5 minutes on each side, or until the dough is cooked, and the cheese is melted and slightly browned.
-   - If using an oven, place the pizza sticks on a baking sheet lined with parchment paper and bake for 12-15 minutes or until they are golden brown and the cheese is melted.
-
-6. Serve:
-   - Remove the Margherita Pizza Sticks from the grill or oven. Brush them with a little olive oil and season with salt and black pepper to taste. Serve them hot with extra tomato sauce for dipping, if desired.
-
-Enjoy your Margherita Pizza on a Stick!
-",
+    "desc": [
+    "1 pound (450g) pizza dough (store-bought or homemade)",
+    "All-purpose flour for dusting",
+    "1 cup tomato sauce or pizza sauce",
+    "8-10 small mozzarella cheese balls (bocconcini)",
+    "8-10 cherry tomatoes",
+    "Fresh basil leaves",
+    "Olive oil for brushing",
+    "Salt and black pepper to taste"
+    ],
     "categ": "Recipe",
     "imgurl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3Oqb94fHWF_ncweI4Qz5MinKZXVQoJzzWJ_H-wJUP04TUKpYpwYtY5Go8ICHFs3TNCc_xQr1nEjnZlySfR6_X_5t5ZCIfe3sVVniIe3khxhSENUKG62aUBKokUl7zfhdwTht21t3nftAwlhFnAaP_-DGdbtb9JWdxn-wbIxBdWKv3QfToM6t3wiYT5hY/s16000/pizza-margarita-in-a-stick-skewer.png",
     "license": "Creative Commons",
